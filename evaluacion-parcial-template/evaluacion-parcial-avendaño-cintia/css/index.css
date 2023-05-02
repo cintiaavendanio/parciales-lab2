@@ -65,11 +65,17 @@ nav ul li a:hover {
 #section-main-image h1 {
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
+  font-size: 120px;
+  font-weight: 100;
 }
 #section-main-image h2 {
   color: white;
   text-shadow: 2px 2px 5px #000;
   margin: 0;
+}
+
+.container p {
+  color: #666;
 }
 
 /* SECTION COFFEE */
@@ -84,25 +90,31 @@ nav ul li a:hover {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3,  1fr);
 }
 
 .product {
   padding: 0 15px;
 }
+.product h3 {
+  color: #005599;
+}
 
 .product img {
-  width: 30px;
+  width: 300px;
 }
 
 /* FOOTER CONTACT */
 
 #footer-contact {
   background-color: #566573;
-  color: #fff;
+  color: #eeeeee;
+  display: flex;
+  justify-content: center;
+}
+.container {
   display: flex;
 }
-
 #footer-contact .contact-data {
   display: flex;
   justify-content: space-between;
