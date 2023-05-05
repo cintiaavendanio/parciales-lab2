@@ -13,6 +13,9 @@ body {
   padding: 60px 0px;
   flex-direction: column;
 }
+.container p::first-letter {
+  font-size: 30px;
+}
 
 /* MENU: NAVBAR/HEADER */
 header {
@@ -91,7 +94,7 @@ nav ul li a:hover {
 
 .product-grid {
   display: grid;
-  grid-template-columns: repeat(3,  1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .product {
@@ -100,6 +103,9 @@ nav ul li a:hover {
 
 .product img {
   width: 300px;
+}
+.product h3 {
+  color: #005599;
 }
 
 /* FOOTER CONTACT */
