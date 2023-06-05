@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200&display=swap");
 * {
-  font-family: "relaway", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 html,
 body {
@@ -15,6 +15,7 @@ body {
 }
 .container p::first-letter {
   font-size: 30px;
+  font-weight: bold;
 }
 
 /* MENU: NAVBAR/HEADER */
@@ -80,6 +81,7 @@ nav ul li a:hover {
 
 .container p {
   color: #666;
+  text-align: justify;
 }
 
 /* SECTION COFFEE */
@@ -91,7 +93,9 @@ nav ul li a:hover {
   align-items: center;
   padding-bottom: 40px;
 }
-
+#section-tecnologia h2 {
+  margin: 40px 0px 20px;
+}
 .product-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -102,10 +106,13 @@ nav ul li a:hover {
 }
 
 .product img {
-  width: 300px;
+  width: 200px;
 }
 .product h3 {
-  color: #005599;
+  color: #21618c;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
 }
 
 /* FOOTER CONTACT */
@@ -116,9 +123,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
 }
-.container {
-  display: flex;
-}
+
 #footer-contact .contact-data {
   display: flex;
   justify-content: space-between;
@@ -135,6 +140,11 @@ nav ul li a:hover {
 
 .contact-form form .form-control label {
   margin-right: 15px;
+}
+.contact-form form .form-control input {
+  border-radius: 3px;
+  color: #34495e;
+  border: 0.3px;
 }
 
 .contact-form form button {
